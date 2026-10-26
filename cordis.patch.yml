@@ -1,0 +1,6 @@
+# 鲸鱼娘插件军团 bundle 层：装入 web profile 时自动应用（package.json dsh.bundle.patch）。
+# 服务端本体无活（总账数据在同源 Next API /api/dsh/plugins，客户端自取），
+# 这里只是把插件实体挂进 profile —— 客户端 tab 由 package.json dsh.client 声明自动加载。
+- insert:
+    - id: luna-plugin-army
+      name: 'luna-plugin-army'
